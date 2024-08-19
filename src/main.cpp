@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-    int work_duration = 25;
+    int work_duration = 1;
     int short_break = 5;
     int long_break = 15;
     int cycles = 4;
@@ -12,7 +12,7 @@ int main() {
     TaskManager task_manager;
 
     while (true) {
-        std::cout << "Pomodoro CLI - Choose an option:\n";
+        std::cout << "Flow CLI - Choose an option:\n";
         std::cout << "1. Start Timer\n";
         std::cout << "2. Stop Timer\n";
         std::cout << "3. Add Task\n";
